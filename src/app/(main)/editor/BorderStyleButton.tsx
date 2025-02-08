@@ -34,7 +34,7 @@ const BorderStyleButton = ({ borderStyle, onChange }: BorderStyleProps) => {
       title="Change border style"
       onClick={handleClick}
     >
-      <Squircle className="size-5" />
+      <Icon className="size-5" />
     </Button>
   );
 };
